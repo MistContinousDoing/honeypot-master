@@ -74,9 +74,9 @@ class shellemulator:
 
 
 		url="http://127.0.0.1:12345/execute"
-        params = {
-            "command": data
-        }
+	        params = {
+	            "command": data
+	        }
 	
 		try:
 			if data=="exit":
